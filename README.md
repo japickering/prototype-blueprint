@@ -42,13 +42,47 @@ Use the built-in continuous integration in GitLab.
 
 ## Prototype Blueprint Setup
 
-Do not modify the main branch. Instead create a new develop branch to make changes.
+Do not modify the main branch.
+Instead create a new develop branch to make changes. Then follow these steps:
 
-Running the development server:
+- Download and install the latest LTS version of Node for your OS.
+  https://nodejs.org/en
+
+- Open a new terminal or Power Shell on windows.
+  Then verify that Node and NPM was installed globally.
+  Note: npx is optional for this case, but comes in handy when scaffolding a brand new React app from scratch.
 
 ```bash
-npm run dev
+node -v
+npm -v
+npx -v
 ```
+
+- Install all the npm dependencies specified in package.json into your project folder.
+
+```bash
+npm install
+```
+
+- Run git status. You should see node_modules installed and a package-lock.json file within the project main folder.
+
+```bash
+git status
+```
+
+- At this point you can run the local dev server. It uses Webpack to create a bundle to serve your application.
+
+````bash
+npm run dev
+```bash
+
+- To create an optimised production ready build. It is good practice to do the following:
+  Run the linter, then the build command.
+
+```bash
+npm run lint
+npm run build
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
