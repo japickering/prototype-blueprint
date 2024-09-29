@@ -32,7 +32,7 @@ git status
 
 ```bash
 npm run dev
-```bash
+```
 
 - To create an optimised production ready build. It is good practice to do the following:
   Run the linter, then the build command.
