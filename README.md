@@ -30,7 +30,7 @@ git status
 
 - At this point you can run the local dev server. It uses Webpack to create a bundle to serve your application.
 
-````bash
+```bash
 npm run dev
 ```bash
 
@@ -40,7 +40,7 @@ npm run dev
 ```bash
 npm run lint
 npm run build
-````
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
