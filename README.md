@@ -30,9 +30,9 @@ git status
 
 - At this point you can run the local dev server. It uses Webpack to create a bundle to serve your application.
 
-````bash
-npm run dev
 ```bash
+npm run dev
+```
 
 - To create an optimised production ready build. It is good practice to do the following:
   Run the linter, then the build command.
@@ -40,7 +40,7 @@ npm run dev
 ```bash
 npm run lint
 npm run build
-````
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
