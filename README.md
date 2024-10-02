@@ -1,4 +1,4 @@
-# Prototype Blueprint Setup
+# Blueprint SDK for Next.js with Typescript and Jest testing support
 
 Do not modify the main branch.
 Instead create a new develop branch to make changes. Then follow these steps:
